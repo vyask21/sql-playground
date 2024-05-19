@@ -1,0 +1,7 @@
+SELECT DISTINCT CITY FROM STATION
+WHERE STATION.ID % 2 = 0
+ORDER BY CITY
+
+# distinct is used to remove duplicates
+# station.id % 2 = 0 is used to get even id's
+# order by city is used to sort the cities in alphabetical order
